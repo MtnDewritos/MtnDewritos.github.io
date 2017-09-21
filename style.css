@@ -1,0 +1,23 @@
+html, body {
+    
+    margin: 0em;
+    height: 100%;
+    background-color: #AAAAAA;
+    min-width: 60em;
+}
+.container {
+   
+    height: 100%;
+    background: #333333;
+    margin: auto;
+    padding: 10px;
+    display: table;
+    
+}
+.tinytext{
+    
+    font-size: 8px;
+    color: #303030;
+    font-family: sans-serif;
+    
+}
