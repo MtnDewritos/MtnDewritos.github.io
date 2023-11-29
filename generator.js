@@ -56,7 +56,7 @@ console.log("reached end of new code");
 
 
 var images1 = []; 
-var folder = "panel1";
+var folder = "./panel1";
 
 
 $.ajax({
