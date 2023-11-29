@@ -54,6 +54,7 @@ displayImage(0);
 console.log("reached end of new code");
 */ //fuck optimization it's too fucking hard, now you get your multiples of the same thing sometimes with hadouken because I really can't be arsed it's fucking 1:30 I need sleep.
 
+print("hello")
 
 var images1 = []; 
 var folder = "./panel1";
