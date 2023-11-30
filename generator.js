@@ -91,7 +91,7 @@ $('<img src="' + images1[rand] + '" onload="setImageSize(this)">').appendTo('#pa
 });
 
 var images2 = []; 
-var folder = "panel2";
+var folder = "https://github.com/MtnDewritos/MtnDewritos.github.io/tree/master/panel2";
 
 
 $.ajax({
@@ -119,7 +119,7 @@ $('<img src="' + images2[rand] + '" onload="setImageSize(this)">').appendTo('#pa
 });
 
 var images3 = []; 
-var folder = "panel3";
+var folder = "https://github.com/MtnDewritos/MtnDewritos.github.io/tree/master/panel3";
 
 
 $.ajax({
@@ -146,7 +146,7 @@ $('<img src="' + images3[rand] + '"onload="setImageSize(this)">').appendTo('#pan
     
 });
 var images4 = []; 
-var folder = "panel4";
+var folder = "https://github.com/MtnDewritos/MtnDewritos.github.io/tree/master/panel4";
 
 
 $.ajax({
