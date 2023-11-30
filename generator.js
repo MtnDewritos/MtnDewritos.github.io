@@ -54,12 +54,23 @@ displayImage(0);
 console.log("reached end of new code");
 */ //fuck optimization it's too fucking hard, now you get your multiples of the same thing sometimes with hadouken because I really can't be arsed it's fucking 1:30 I need sleep.
 
+
+
+
+var fs = require('fs');
+var files = fs.readdirSync('./panel1/');
+
+console.log(files)
+
+var rand = Math.floor(Math.random() * images1.length);
+
+
 console.log("hello")
 
 var images1 = []; 
-var folder = "./panel1";
+var folder = "panel1";
 
-
+/*
 $.ajax({
     url : folder,
     success: function (data) {
@@ -165,4 +176,4 @@ $('<img src="' + images4[rand] + '"onload="setImageSize(this)">').appendTo('#pan
 
     }
     
-});
+}); */
