@@ -67,6 +67,7 @@ var folder = "https://github.com/MtnDewritos/MtnDewritos.github.io/tree/master/p
 
 $.ajax({
     url : folder,
+    datatype: "jsonp",
     success: function (data) {
         $(data).find("a").attr("href", function (i, val) {
             if( val.match(/\.(jpe?g|png|gif)$/) ) { 
