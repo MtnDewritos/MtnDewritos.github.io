@@ -55,7 +55,8 @@ console.log("reached end of new code");
 */ //fuck optimization it's too fucking hard, now you get your multiples of the same thing sometimes with hadouken because I really can't be arsed it's fucking 1:30 I need sleep.
 
 
-
+//cors error, if I want to get back to fix this silly little thing, use github rest api
+//https://docs.github.com/en/rest
 
 
 console.log("hello")
