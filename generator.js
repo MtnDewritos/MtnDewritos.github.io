@@ -57,20 +57,14 @@ console.log("reached end of new code");
 
 
 
-var fs = require('fs');
-var files = fs.readdirSync('./panel1/');
-
-console.log(files)
-
-var rand = Math.floor(Math.random() * images1.length);
-
 
 console.log("hello")
 
 var images1 = []; 
-var folder = "panel1";
+var folder = "https://github.com/MtnDewritos/MtnDewritos.github.io/tree/master/panel1";
 
-/*
+
+
 $.ajax({
     url : folder,
     success: function (data) {
@@ -176,4 +170,4 @@ $('<img src="' + images4[rand] + '"onload="setImageSize(this)">').appendTo('#pan
 
     }
     
-}); */
+}); 
